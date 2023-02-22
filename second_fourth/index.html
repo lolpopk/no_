@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="main-form" onsubmit="return checkForm(this)" method="post">
+    <label for="name">name; </label>
+    <input type="text" name="name" placeholder="name" id="name"><br>
+    <label for="password">password; </label>
+    <input type="password" name="pass" placeholder="password" id="pass"><br>
+    <label for="repass">repassword; </label>
+    <input type="password" name="repass" placeholder="repassword pleas" id="repass"><br>
+    <span>gender; </span>
+    <input type="radio" name="state" id="male" value="men">
+    <label for="male">man</label>
+    <input type="radio" name="state" id="female" value="women">
+    <label for="female">women</label>
+    <input type="submit" name="submit" value="ready">
+    </form>
+    <script src="JS/main.js"></script>
+</body>
+</html>
